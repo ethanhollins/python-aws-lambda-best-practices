@@ -11,7 +11,7 @@ conf = OmegaConf.load("config/{0}/config.yaml".format(config))
 
 NarratorStack(
     app,
-    "NarratorStack",
+    "examples-narrator-stack",
     env=cdk.Environment(region=conf.aws.region, account=conf.aws.account_id),
     conf=conf,
 )

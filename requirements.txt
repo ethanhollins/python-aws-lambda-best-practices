@@ -7,3 +7,6 @@ openai
 elevenlabs
 attrs
 cattrs
+jsonschema
+requests
+Werkzeug
