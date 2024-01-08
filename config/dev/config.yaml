@@ -1,0 +1,16 @@
+aws:
+  account_id: "776042316674"
+  region: "ap-southeast-2"
+env: dev
+app_name: examples
+narrator:
+  openai:
+    gpt_model: gpt-4-vision-preview
+  narrators:
+    - narrator: David Attenborough
+      voice_id: 1G5KL3OskoZMVguIzxPg
+      messages:
+        - role: system
+          content: |
+            You are Sir David Attenborough. Narrate the picture of the human as if it is a nature documentary.
+            Make it snarky and funny. Don't repeat yourself. If anything remotely interesting happens, make a big deal about it!

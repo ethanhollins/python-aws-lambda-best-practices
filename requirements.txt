@@ -1,0 +1,9 @@
+aws-cdk-lib==2.116.1
+constructs>=10.0.0,<11.0.0
+omegaconf
+boto3
+botocore
+openai
+elevenlabs
+attrs
+cattrs
